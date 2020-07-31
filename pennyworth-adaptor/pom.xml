@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>china-framework</artifactId>
+        <groupId>com.istudy</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>pennyworth-adaptor</artifactId>
+    <name>pennyworth-adaptor</name>
+    <url>https://github.com/gaoqinibm/</url>
+    <description>阿尔弗雷德·潘尼沃斯</description>
+
+    <developers>
+        <developer>
+            <name>Baizhen</name>
+            <url>https://github.com/gaoqinibm/</url>
+            <email>13634195169@139.com</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <mybatis.generator.core.version>1.4.0</mybatis.generator.core.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>${mybatis.generator.core.version}</version>
+            <exclusions></exclusions>
+        </dependency>
+    </dependencies>
+
+</project>
