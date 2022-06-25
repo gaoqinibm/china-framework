@@ -32,7 +32,7 @@
         <spring.elasticsearch.version>2.3.2.RELEASE</spring.elasticsearch.version>
         <spring.amqp.version>2.3.2.RELEASE</spring.amqp.version>
         <mysql.connector.version>8.0.20</mysql.connector.version>
-        <spring.mongodb.version>3.0.2.RELEASE</spring.mongodb.version>
+        <spring.mongodb.version>3.3.5</spring.mongodb.version>
         <spring.redis.version>2.3.2.RELEASE</spring.redis.version>
     </properties>
 
